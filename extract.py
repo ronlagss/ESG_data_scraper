@@ -1,4 +1,3 @@
-# Hydrus.ai
 # import selenium modules
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

@@ -8,8 +8,8 @@ import boto3
 
 
 session = boto3.Session(
-    aws_access_key_id='AKIA3KOOFLMXZN2TIZP7',
-    aws_secret_access_key='5/EyPGGZ329Pa0f8KlzeHaF3QmBRT3WgJJKtdA7E',
+    aws_access_key_id='', #EXAMPLE KEY
+    aws_secret_access_key='', #
 )
 dynamodb = session.resource('dynamodb')
 dynamodb_table = dynamodb.Table('yahoo-finance')
